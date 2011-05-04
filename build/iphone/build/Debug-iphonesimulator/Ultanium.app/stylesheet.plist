@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>classes</key>
+		<dict>
+<key>app</key>
+<dict>
+<key>win</key>
+<dict>
+<key>borderRadius</key>
+<string>5</string>
+<key>borderColor</key>
+<string>#fff</string>
+</dict>
+<key>window</key>
+<dict>
+<key>barColor</key>
+<string>#333</string>
+<key>color</key>
+<string>#333</string>
+<key>backgroundColor</key>
+<string>#fff</string>
+</dict>
+<key>tableview</key>
+<dict>
+<key>backgroundColor</key>
+<string>#fff</string>
+<key>rowBackgroundColor</key>
+<string>#fff</string>
+</dict>
+</dict>
+</dict>
+
+		<key>classes_density</key>
+		<dict>
+<key>app</key>
+<dict>
+</dict>
+</dict>
+
+		<key>ids</key>
+		<dict>
+<key>app</key>
+<dict>
+<key>win2</key>
+<dict>
+<key>backgroundColor</key>
+<string>#333</string>
+</dict>
+<key>win3</key>
+<dict>
+<key>backgroundColor</key>
+<string>yellow</string>
+</dict>
+<key>tab1</key>
+<dict>
+<key>icon</key>
+<string>icons/KS_nav_ui.png</string>
+</dict>
+<key>win1</key>
+<dict>
+<key>backgroundColor</key>
+<string>#f0f</string>
+</dict>
+<key>tab3</key>
+<dict>
+<key>icon</key>
+<string>icons/KS_nav_ui.png</string>
+</dict>
+<key>tab2</key>
+<dict>
+<key>icon</key>
+<string>icons/KS_nav_ui.png</string>
+</dict>
+</dict>
+</dict>
+
+		<key>ids_density</key>
+		<dict>
+<key>app</key>
+<dict>
+</dict>
+</dict>
+
+	</dict>
+</plist>
