@@ -2,13 +2,12 @@ Welcome to the Ultanium Appcelerator Titanium Mobile Package
 
 Ultanium is an attempt to bring the web 'Ultimate Package' to Titanium Mobile. 
 
-It offers an out of the box best practice set up that makes heavy use of: 
+It offers an out of the box best practice set up that: 
 
-- Protects global namespace
-- Uses MVC style helpers to create all elements with JSS ID & Classes
-- Allowing for customised Apple iOS & Android compatible UIs through simple JSS
-- Mixes in HTML5/CSS3 webviews where appropriate to allow quick and easy to 
-manage content
+- Protects global namespace through self calling functions
+- Uses MVC style helpers to create all common UI elements with JSS ID & Classes
+- Allows for customised Apple iOS & Android compatible UIs through simple JSS
+- Mixes in HTML5/CSS3 webviews to allow quick and easy to content management
 
 The objective of Ultanium is provide a re-usable package which enables a quick 
 start to create simple, native, information based mobile applications that can 
