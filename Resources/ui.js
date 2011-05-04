@@ -5,7 +5,7 @@
 		
 	// Create initial tab group
 	app.ui.initApp = function() {
-			
+		
 		// WINDOW 1
 		app.ui.win1 = app.helper.createWindow('win1', 'win', 'hi');
 		var btn = app.helper.createButton('btnCall', 'btnBig', 'Call me!!');
@@ -13,7 +13,7 @@
 		
 		// WINDOW 2
 		app.win2 = app.helper.createWindow('win2', 'win', 'TableView');
-		Ti.include('content/tableview.js');
+		//Ti.include('content/tableview.js');
 		
 		// WINDOW 3
 		app.win3 = app.helper.createWindow('win3', 'win', 'there');
@@ -31,6 +31,7 @@
 		tabGroup.addTab(app.tab3);
 					
 		return tabGroup;
+		
 	};
 
 })();

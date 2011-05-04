@@ -8,12 +8,7 @@
 		var win = Ti.UI.createWindow({  
 			id: _id,
 			className: _class,
-		    title: _title,
-			orientationModes : [
-			Ti.UI.PORTRAIT,
-			Ti.UI.LANDSCAPE_LEFT,
-			Ti.UI.LANDSCAPE_RIGHT
-			] 
+		    title: _title
 		});	
 		return win;
 	};
