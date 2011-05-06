@@ -1,27 +1,27 @@
 /**********************************************************************
 	App Declarations & Scope
 **********************************************************************/
-	var app = {}; // global namespace
-
-	if (Titanium.Platform.name == 'iPhone OS') {
-		Ti.UI.iPhone.statusBarStyle = 2;
-	} 
+	// Set up the global namespace
+	var app = {}; 
 		
-	Ti.include( //we'll be including all the files for our namespace in the root app context
+	// Include all the files for our namespace in the root app context	
+	Ti.include( 
 		'helper.js',
 		'ui.js'
 	);
 	
-		
-	//Use our custom UI constructors to build the app's UI
+	// Custom UI constructors to build the app's UI
 	var init = app.ui.initApp();
 
-	
-	
+	// Init App
 	if (Titanium.Platform.name == 'iPhone OS') {
+		// Set iOS bar to black
+		Ti.UI.iPhone.statusBarStyle = 2;
+		// Open iOS app with Curl Up
 		init.open({
 			transition:Ti.UI.iPhone.AnimationStyle.CURL_UP
 		});
 	} else {
+		// Open Android app without anim
 		init.open();
 	}

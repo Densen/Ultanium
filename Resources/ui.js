@@ -13,7 +13,7 @@
 		
 		// WINDOW 2
 		app.win2 = app.helper.createWindow('win2', 'win', 'TableView');
-		//Ti.include('content/tableview.js');
+		Ti.include('content/tableview.js');
 		
 		// WINDOW 3
 		app.win3 = app.helper.createWindow('win3', 'win', 'there');
