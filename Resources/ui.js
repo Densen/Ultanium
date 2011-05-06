@@ -7,17 +7,16 @@
 	app.ui.initApp = function() {
 		
 		// WINDOW 1
-		app.ui.win1 = app.helper.createWindow('win1', 'win', 'hi');
-		var btn = app.helper.createButton('btnCall', 'btnBig', 'Call me!!');
-		app.ui.win1.add(btn);
+		app.ui.win1 = app.helper.createWindow('win1', 'win', 'Win 1');
+		Ti.include('content/win1.js');
 		
 		// WINDOW 2
-		app.win2 = app.helper.createWindow('win2', 'win', 'TableView');
-		Ti.include('content/tableview.js');
+		app.win2 = app.helper.createWindow('win2', 'win', 'Win 2');
+		Ti.include('content/win2.js');
 		
 		// WINDOW 3
-		app.win3 = app.helper.createWindow('win3', 'win', 'there');
-		
+		app.win3 = app.helper.createWindow('win3', 'win', 'Win 3');
+		Ti.include('content/win3.js');
 
 		// TABGROUP
 		var tabGroup = Ti.UI.createTabGroup();
