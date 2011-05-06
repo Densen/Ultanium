@@ -26,7 +26,7 @@
 	var tableview = Titanium.UI.createTableView(tableViewOptions);
 	
 	// Add TableView 
-	app.win2.add(tableview); 
+	app.ui.win2.add(tableview); 
 	
 	// EventListener
 	tableview.addEventListener('click', function(e)

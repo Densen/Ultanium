@@ -11,19 +11,19 @@
 		Ti.include('content/win1.js');
 		
 		// WINDOW 2
-		app.win2 = app.helper.createWindow('win2', 'win', 'Win 2');
+		app.ui.win2 = app.helper.createWindow('win2', 'win', 'Win 2');
 		Ti.include('content/win2.js');
 		
 		// WINDOW 3
-		app.win3 = app.helper.createWindow('win3', 'win', 'Win 3');
+		app.ui.win3 = app.helper.createWindow('win3', 'win', 'Win 3');
 		Ti.include('content/win3.js');
 
 		// TABGROUP
 		var tabGroup = Ti.UI.createTabGroup();
 		
 		app.tab1 = app.helper.createTab('tab1', 'tab', 'This is tab1', app.ui.win1);
-		app.tab2 = app.helper.createTab('tab2', 'tab', 'TableView', app.win2);
-		app.tab3 = app.helper.createTab('tab3', 'tab', 'and.. tab3', app.win3);
+		app.tab2 = app.helper.createTab('tab2', 'tab', 'TableView', app.ui.win2);
+		app.tab3 = app.helper.createTab('tab3', 'tab', 'and.. tab3', app.ui.win3);
 				
 		tabGroup.addTab(app.tab1);
 		tabGroup.addTab(app.tab2);
